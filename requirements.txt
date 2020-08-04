@@ -1,0 +1,13 @@
+# Runtime deps
+Pillow==7.1.*
+reportlab==3.5.*
+
+# code maint
+autoflake
+isort
+black
+twine
+
+# tests
+pytest
+mypy

@@ -1,0 +1,12 @@
+"""Version details for pdf_template"""
+
+__title__ = "pdf_template"
+__description__ = "Library wrapping pdftk to fill and sign PDFs"
+__url__ = "https://github.com/vote/pdf_template"
+__version__ = "0.0.1"
+__author__ = "Ben Weissmann"
+__author_email__ = "ben@voteamerica.com"
+__license__ = "BSD"
+__maintainer__ = "Ben Weissmann"
+__maintainer_email__ = "ben@voteamerica.com"
+__keywords__ = "python pdf signature pdftk template"
