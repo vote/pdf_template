@@ -6,6 +6,7 @@ Example:
 
 ```py
 from pdf_template import PDFTemplate, PDFTemplateSection, SignatureBoundingBox
+from PIL import Image
 
 input_data = {
     "is_18_or_over": True,
@@ -40,6 +41,6 @@ template = PDFTemplate(
 with template.fill(
     input_data, signature=Image.open("tests/sig.jpeg")
 ) as output_pdf:
-    with open("output.pdf") as out_file:
+    with open("output.pdf", "wb") as out_file:
         out_file.write(output_pdf.read())
 ```

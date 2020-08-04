@@ -5,9 +5,9 @@ lint:
 		--ignore-init-module-imports \
 		--in-place \
 		--recursive \
-		*.py && \
-		isort --recursive *.py && \
-		black *.py
+		*.py pdf_template/ && \
+		isort --recursive *.py pdf_template/  && \
+		black *.py pdf_template/
 
 
 test:
@@ -15,5 +15,5 @@ test:
 	docker run --rm -it -v ${PWD}:/app pdf-template-dev
 
 test_inner:
-	mypy *.py
+	mypy pdf_template
 	python -m pytest .

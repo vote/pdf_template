@@ -4,7 +4,7 @@ import tempfile
 
 from PIL import Image
 
-from .. import PDFTemplate, PDFTemplateSection, SignatureBoundingBox
+from pdf_template import PDFTemplate, PDFTemplateSection, SignatureBoundingBox
 
 
 def relpath(path):

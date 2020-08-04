@@ -8,7 +8,7 @@ from setuptools import setup
 here = os.path.abspath(os.path.dirname(__file__))
 
 about = {}
-with open(os.path.join(here, "__version__.py"), "r") as f:
+with open(os.path.join(here, "pdf_template/__version__.py"), "r") as f:
     exec(f.read(), about)
 
 

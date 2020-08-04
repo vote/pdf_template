@@ -3,10 +3,9 @@ from dataclasses import dataclass
 from typing import IO, Any, Dict, List, Optional
 
 from PIL import Image
+from .pypdftk import PyPDFTK
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
-
-from pypdftk import PyPDFTK
 
 PDF_DEBUG = False
 
