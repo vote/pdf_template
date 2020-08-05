@@ -1,6 +1,8 @@
 # pdf_template
 
-Small wrapper around pdftk for filling and signing PDFs
+Small wrapper around pdftk for filling and signing PDFs.
+
+You will need to have the `pdftk` binary installed and in your `$PATH`.
 
 Example:
 

@@ -25,7 +25,7 @@ setup(
     description=about["__description__"],
     long_description=textwrap.dedent(open("README.md", "r").read()),
     long_description_content_type="text/markdown",
-    install_requires=["dataclasses", "Pillow", "reportlab"],
+    install_requires=["dataclasses >= 0.6;python_version<'3.7'", "Pillow", "reportlab"],
     tests_require=["pytest"],
     test_suite="nose.collector",
     keywords=about["__keywords__"],

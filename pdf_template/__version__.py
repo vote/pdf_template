@@ -3,7 +3,7 @@
 __title__ = "pdf_template"
 __description__ = "Library wrapping pdftk to fill and sign PDFs"
 __url__ = "https://github.com/vote/pdf_template"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "Ben Weissmann"
 __author_email__ = "ben@voteamerica.com"
 __license__ = "BSD"
