@@ -1,5 +1,5 @@
 # Runtime deps
-Pillow==12.2.*
+Pillow==12.3.*
 reportlab==3.5.*
 
 # code maint
