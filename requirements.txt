@@ -1,6 +1,6 @@
 # Runtime deps
-Pillow==12.3.*
-reportlab==3.5.*
+Pillow==13.0.*
+reportlab==5.1.*
 
 # code maint
 autoflake
