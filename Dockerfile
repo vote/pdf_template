@@ -1,4 +1,4 @@
-FROM python:3.7-buster
+FROM python:3.12-bookworm
 
 ENV APP_DIR=/app
 WORKDIR $APP_DIR
